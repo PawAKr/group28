@@ -1,0 +1,10 @@
+- Summary
+- Project
+- Component
+- Version
+- Severity
+- Priority
+- Steps to reproduce
+- Actual result
+- Expect result
+- Additional informatison
