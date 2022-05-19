@@ -1,0 +1,40 @@
+﻿1) Посмотреть где я - pwd
+2) Создать папку - mkdir (название папки)
+3) Зайти в папку - cd (название папки)
+4) Создать 3 любые папки -  mkdir first two three
+5) Создать в любой папке - cd first
+6) Создать 5 любых файлов - touch test1.txt test2.txt test3.txt test4.json test5.json
+7) Создать 3 папки - mkdir -p ./qa1/qa2/qa3
+8) Вывести список  содержимого папки - ls -la
+9) +Открыть любой txt файл - vim test1.txt
+10)+ Написать туда что-нибудь,любой текст - I- Bad day
+11)+ Сохранить и выйти - ESC :wq enter
+12) Выйти из папки на уровень выше cd ..
+13) Переместить любые 2 файла ,которые вы создали в любую другую папку
+ -  mv first/{test4.json,test5.json} ./twoo/
+14) cp first/{test1.txt,test2.txt} ./twoo/
+15) НАйти файл по имени - find test5.json
+16) посмотреть содержимое в реальном времени - cat test1.txt
+17) вывести несколько первых строк из текстового файла head -n3 test2.txt
+18) вывести несколько последних строк из текстового файла tail -кол-во строк test2.txt
+9) просмотреть содержимое длинного файла (команда less)  less - имя файла  перемещать в странице pgup pgdn
+20) вывести дату и время - date -r
+
+Задание *
+1) Отправить http запрос на сервер. - curl
+2) НАписать скрипт
+-создание скрипта nano newscrip.sh
+   #!/bin/bash
+ -Запуск скрипта newscrip.sh
+cd ./Перья
+mkdir папка10 папка20 папка30
+cd ./папка20
+touch test10.txt test11.txt test12.txt test13.json test14.json
+mkdir папка33 папка44 папка55
+ls -la
+mv test10.txt ./папка33 test10.txt
+mv test14.json ./папка33 test15.json
+pwd
+mkdir foldername
+cd foldername
+
